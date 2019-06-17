@@ -7,26 +7,29 @@ body {
 h1 {
 	font-family: 'Roboto', sans-serif;
 }
-/*.container-top {
-	width: 900px;
-	height: 25px;
-	background-color: purple;
-}*/
 .container-main {
-	width: 900px;
-	height: 375px;
-	background-color: lightgrey;
-	color: black;
+	width: 100%;
+	height: 425px;
+	padding-top: 2em;
+	padding-left: 3em;
+	background-image: url("images/biketree2.jpg");
+	color: white;
+	font-style: bold;
 	font-size: 24px;
+	font-family: 'Rubik', sans-serif;
 }
 .container-a {
-	width: 450px;
-	height: 375px;
-	background-color: #eceff1;
-	color: #ffff00;
+	width: 100%;
+	height: 225px;
+	padding: .5em;
+	padding-left: 2em;
+	background-color: #1b5e20;
+	color: white;
 	font-size: 24px;
+	text-align: center;
 	position: relative;
     float: left;
+    font-family: 'Rubik', sans-serif;
 }
 p {
 	font-color: #212121;
@@ -34,22 +37,33 @@ p {
 	font-size: 21px;
 }
 .container-b {
-	width: 450px;
-	height: 375px;
-	background-color: red;
+	width: 50%;
+	height: 425px;
+	padding-top: 3em;
+	background-color: green;
 	color: white;
-	font-size: 24px;
+	font-size: 28px;
+	text-align: center;
 	position: relative;
     float: left;
 }
+.container-a > h1 {
+	font-family: 'Knewave', cursive;
+}
 .container-c {
 	display: inline-block;
-	width: 900px;
-	height: 375px;
-	background-color: green;
-	color: white;
-	text-align: center;
-	font-size: 42px;
+	width: 50%;
+	height: 425px;
+	background-image: url("images/topomap.jpg");
+	float: right;
+}
+.container-d {
+	display: inline-block;
+	width: 100%;
+	height: 425px;
+	padding-left: 2em;
+	padding-top: 2em;
+	background-color: orange;
 }
 
 
